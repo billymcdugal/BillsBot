@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from keep_alive import keep_alive  # If you have this defined somewhere
 
-
+#comment
 load_dotenv()
 # Constants
 SUGGESTION_CHANNEL_ID = 1382808669250388102
