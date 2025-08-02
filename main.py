@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from keep_alive import keep_alive  # If you have this defined somewhere
 
-from discord_token import discord_token
+
 load_dotenv()
 # Constants
 SUGGESTION_CHANNEL_ID = 1382808669250388102
@@ -162,4 +162,4 @@ async def poll(ctx):
 # Keep alive for Replit
 keep_alive()
 TOKEN = os.getenv("DISCORD_TOKEN")
-bot.run(discord_token)
+bot.run(TOKEN)
